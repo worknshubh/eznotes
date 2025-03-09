@@ -42,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
         fetchnotesfromfirestore()
+
+
         // for creating a new note
         var fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {
@@ -59,19 +61,19 @@ class MainActivity : AppCompatActivity() {
                 Query.Direction.DESCENDING)
                 .addSnapshotListener { snapshots, error ->
                     if (error != null) {
-                        // Handle error (e.g., show a Toast)
+                        // complete this
                         return@addSnapshotListener
                     }
 
                     if (snapshots != null) {
-                        userArrayList.clear() // Clear the old list
+                        userArrayList.clear()
 
                         for (document in snapshots) {
                             val note = document.toObject(userdata::class.java)
                             userArrayList.add(note)
                         }
 
-                        adapter.notifyDataSetChanged() // Refresh RecyclerView
+                        adapter.notifyDataSetChanged()
                     }
                 }
         }

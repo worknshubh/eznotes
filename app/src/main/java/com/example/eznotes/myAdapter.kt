@@ -26,6 +26,8 @@ class myAdapter(var context: Context, var userlist:List<userdata>): RecyclerView
         holder.timing.text = user.timestamp?.toDate().toString()
         holder.itemView.setOnClickListener{
             val intent = Intent(context,notes::class.java)
+
+            TODO("Retriving the saved data in notes activity which can be updated")
             context.startActivity(intent)
         }
     }
