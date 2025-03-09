@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388126108921",
+    "project_id": "eznotes-d9f06",
+    "storage_bucket": "eznotes-d9f06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388126108921:android:d490d06ecbc006f36b4628",
+        "android_client_info": {
+          "package_name": "com.example.eznotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8epxqQ956Wq5gWkSqjcCLf6zvON-SId4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

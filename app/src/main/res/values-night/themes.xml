@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Eznotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#FFB901</item>
+        <item name="android:statusBarColor">#FFB901</item>
+    </style>
+
+    <style name="Theme.Eznotes" parent="Base.Theme.Eznotes" />
+</resources>
